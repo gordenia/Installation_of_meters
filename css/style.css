@@ -1,0 +1,191 @@
+.header {
+  font-family: 'PT Sans', sans-serif; }
+  .header .navbar {
+    background-color: #3b7eb5;
+    border: none;
+    border-radius: 0;
+    margin: 0; }
+  .header .navbar-nav {
+    width: 100%;
+    text-align: center;
+    font-size: 12px; }
+    .header .navbar-nav li {
+      float: none;
+      display: inline-block; }
+    .header .navbar-nav a {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 16px;
+      display: inline-block; }
+    .header .navbar-nav a:hover,
+    .header .navbar-nav a:focus {
+      background-color: #29679b; }
+    .header .navbar-nav .vertical-line {
+      width: 2px;
+      height: 16px;
+      background-color: #79add7;
+      display: inline-block;
+      vertical-align: text-bottom; }
+  .header .icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center; }
+  .header .icon-bar {
+    background-color: #adadad; }
+  .header .banner {
+    background-image: url(../img/header_background.jpg);
+    padding: 50px 0;
+    background-size: cover; }
+  .header .logo {
+    float: left;
+    display: inline-block;
+    vertical-align: middle; }
+  .header .icon-logo {
+    background-image: url(../img/logo.png);
+    width: 50px;
+    height: 70px; }
+  .header .logo-text,
+  .header .address,
+  .header .phone {
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: middle; }
+  .header .name-company {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    text-transform: uppercase; }
+  .header .services-company {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; }
+  .header .information-company {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif; }
+  .header .icon-location,
+  .header .icon-phone {
+    background-image: url(../img/icon-location.png);
+    width: 30px;
+    height: 30px; }
+  .header .icon-master {
+    background-image: url(../img/icon-master.png);
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: 0; }
+  .header .city {
+    font-weight: 700;
+    font-size: 20px; }
+  .header .street {
+    font-size: 15px;
+    margin-right: 50px; }
+  .header .icon-phone {
+    background-image: url(../img/icon-phone.png); }
+  .header .phone {
+    font-size: 26px; }
+  .header .publicity {
+    background-image: url(../img/counters.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0; }
+    .header .publicity h1 {
+      font-size: 50px;
+      line-height: 50px; }
+    .header .publicity .master {
+      font-size: 25px;
+      padding-left: 100px;
+      background-color: #ebf3f9;
+      line-height: 60px;
+      position: relative;
+      margin: 50px 0;
+      display: inline-block; }
+    .header .publicity .master:after {
+      content: ' ';
+      position: absolute;
+      right: -60px;
+      top: 0;
+      border: 30px solid transparent;
+      border-left: 30px solid #ebf3f9;
+      border-top: 30px solid #ebf3f9; }
+    .header .publicity .action {
+      font-size: 22px;
+      line-height: 32px; }
+      .header .publicity .action .red-text {
+        font-size: 35px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-width: 320px; }
+
+.red-text {
+  color: red;
+  font-weight: 700; }
+
+.valuta:after {
+  content: "\20BD";
+  font-size: 27px; }
+
+.form-control {
+  font-size: 16px;
+  height: 50px;
+  border-radius: 0; }
+
+.input-group {
+  width: 100%;
+  padding-right: 10px; }
+
+.form-group {
+  width: 35%;
+  float: left; }
+
+form {
+  padding: 25px 40px;
+  background-color: #3e82b9; }
+
+.input-group-addon {
+  background-color: #ffffff;
+  color: #a5a5a5;
+  border-radius: 0; }
+
+.pantagonal-button {
+  width: 30%;
+  display: inline-block; }
+
+.red-button {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f8210b;
+  width: 100%;
+  border: 0;
+  line-height: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  position: relative; }
+
+.red-button:before {
+  position: absolute;
+  top: 0px;
+  right: -11px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 25px 0 25px 11px;
+  border-style: solid;
+  border-color: #3e82b9;
+  border-left-color: #f8210b; }
+
+.clear {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */
