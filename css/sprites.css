@@ -1,0 +1,36 @@
+.icon
+{
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: center;
+}
+
+.icon-bar
+{
+    background-color: #ffffff;
+}
+
+.icon-location
+{
+    background-image: url(../img/icon-location.png);
+    width: 30px;
+    height: 30px;
+}
+
+.icon-phone
+{
+    background-image: url(../img/icon-phone.png);
+    width: 30px;
+    height: 30px;
+}
+
+.icon-master
+{
+    background-image: url(../img/icon-master.png);
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}

@@ -1,0 +1,130 @@
+@media screen and (max-width: 1199px)
+{
+    .publicity
+    {
+        padding: 35px 0 0;
+    }
+
+    .master
+    {
+        background-color: transparent;
+    }
+
+    .master:after
+    {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    .menu-item
+    {
+        font-size: 12px;
+    }
+
+    .vertical-line
+    {
+        height: 12px;
+    }
+
+    .company-information,
+    .logo
+    {
+        float: none;
+        display: block;
+    }
+
+    .company-information
+    {
+        padding-left: 10px;
+    }
+
+    .block-information
+    {
+        padding-top: 20px;
+    }
+
+    .phone
+    {
+        font-size: 18px;
+    }
+
+    .banner
+    {
+        padding: 25px 0;
+    }
+
+    .publicity
+    {
+        background-image: none;
+    }
+
+    .headline
+    {
+        font-size: 45px;
+    }
+
+    .master
+    {
+        display: inline-block;
+        padding-left: 0;
+        margin: 35px 0;
+    }
+
+    .icon-master
+    {
+        display: none!important;
+    }
+
+    .action
+    {
+        display: inline-block;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .navbar-nav
+    {
+        margin: 0 -15px;
+    }
+
+    .menu-item
+    {
+        display: block!important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .vertical-line
+    {
+        display: none;
+    }
+
+    .action
+    {
+        display: block;
+        float: none;
+        margin-bottom: 25px;
+    }
+
+    .master
+    {
+        margin: 15px 0;
+        line-height: 45px;
+    }
+
+    .form-iput,
+    .pantagonal-button
+    {
+        float: none;
+        width: 100%!important;
+        padding-right: 0;
+    }
+
+    .red-button:before
+    {
+        display: none;
+    }
+}
