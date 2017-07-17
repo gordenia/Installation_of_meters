@@ -185,8 +185,8 @@ img {
   border-color: #3e82b9;
   border-left-color: #f8210b; }
 
-.priceCount {
-  background-image: url(../img/priceCount_background.jpg);
+.price-count {
+  background-image: url(../img/price_count_background.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 50px 0;
