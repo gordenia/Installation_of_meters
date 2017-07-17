@@ -13,24 +13,116 @@
 
 .icon-location
 {
-    background-image: url(../img/icon-location.png);
+    background-image: url(../img/sprite/icon_location.png);
     width: 30px;
     height: 30px;
 }
 
 .icon-phone
 {
-    background-image: url(../img/icon-phone.png);
+    background-image: url(../img/sprite/icon_phone.png);
     width: 30px;
     height: 30px;
 }
 
 .icon-master
 {
-    background-image: url(../img/icon-master.png);
+    background-image: url(../img/sprite/icon_master.png);
     width: 80px;
     height: 100px;
     position: absolute;
     left: 10px;
     bottom: 0;
+}
+
+.icon-user,
+.icon-phone-form
+{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    border-right: 1px solid #cccccc;
+}
+
+.icon-user
+{
+    background-image: url(../img/sprite/icon_user.png);
+}
+
+.icon-phone-form
+{
+    background-image: url(../img/sprite/icon_phone_form.png);
+}
+
+.logo-atlant
+{
+    background-image: url(../img/sprite/logo_atlant.png);
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.logo-itelma
+{
+    background-image: url(../img/sprite/logo_itelma.png);
+    width: 100px;
+    height: 28px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.logo-valtec
+{
+    background-image: url(../img/sprite/logo_valtec.png);
+    width: 108px;
+    height: 17px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.icon-flag-russia,
+.icon-flag-german,
+.icon-flag-italia
+{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.icon-flag-russia
+{
+    background-image: url(../img/sprite/icon_flag_russia.png);
+}
+
+.icon-flag-german
+{
+    background-image: url(../img/sprite/icon_flag_german.png);
+}
+
+.icon-flag-italia
+{
+    background-image: url(../img/sprite/icon_flag_italia.png);
+}
+
+.icon-circleblock
+{
+    width: 35px;
+    height: 30px;
+    background-image: url(../img/sprite/icon_circle_block.png);
+}
+
+.icon-circleblock2
+{
+    width: 50px;
+    height: 30px;
+    background-image: url(../img/sprite/icon_circle_block2.png);
 }

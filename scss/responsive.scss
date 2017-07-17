@@ -1,4 +1,4 @@
-@media screen and (max-width: 1199px)
+@media (max-width: 1199px)
 {
     .publicity
     {
@@ -16,9 +16,9 @@
     }
 }
 
-@media screen and (max-width: 991px)
+@media (max-width: 991px)
 {
-    .menu-item
+    .menu
     {
         font-size: 12px;
     }
@@ -45,36 +45,39 @@
         padding-top: 20px;
     }
 
-    .phone
+    .block-phone
     {
         font-size: 18px;
     }
 
     .banner
     {
-        padding: 25px 0;
+        padding: 15px 0 0;
     }
 
     .publicity
     {
         background-image: none;
+        padding: 15px 0;
     }
 
     .headline
     {
         font-size: 45px;
+        padding-bottom: 15px;
     }
 
     .master
     {
         display: inline-block;
         padding-left: 0;
-        margin: 35px 0;
-    }
+        margin: 15px 0;
+        line-height: 45px;
 
-    .icon-master
-    {
-        display: none!important;
+        .icon-master
+        {
+            display: none;
+        }
     }
 
     .action
@@ -82,19 +85,38 @@
         display: inline-block;
         float: right;
     }
+
+    .priceCount
+    {
+        padding: 15px 0;
+    }
+
+    .product
+    {
+        margin-top: 25px;
+    }
 }
 
-@media screen and (max-width: 767px)
+@media (max-width: 767px)
 {
     .navbar-nav
     {
         margin: 0 -15px;
+        width: auto;
     }
 
-    .menu-item
+    .menu
     {
-        display: block!important;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        .menu-item-container
+        {
+            display: block;
+        }
+
+        .menu-item
+        {
+            display: block;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
     }
 
     .vertical-line
@@ -102,20 +124,36 @@
         display: none;
     }
 
+    .logo,
+    .company-information,
+    .publicity
+    {
+        text-align: center;
+    }
+
+    .city
+    {
+        text-align: left;
+    }
+
+    .headline
+    {
+        padding-bottom: 0;
+    }
+
     .action
     {
         display: block;
         float: none;
-        margin-bottom: 25px;
     }
 
     .master
     {
         margin: 15px 0;
-        line-height: 45px;
+        line-height: 25px;
     }
 
-    .form-iput,
+    .form-input,
     .pantagonal-button
     {
         float: none;
@@ -127,4 +165,65 @@
     {
         display: none;
     }
+
+    .price-container
+    {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 479px)
+{
+    .banner,
+    .publicity
+    {
+        padding: 5px 0 0;
+    }
+    .company-information
+    {
+        padding-left: 0;
+    }
+
+    .block-information
+    {
+        display: block;
+        padding-top: 5px;
+
+        .icon
+        {
+            background-position: left;
+        }
+    }
+
+    .street
+    {
+        margin-right: 0;
+    }
+
+    .headline
+    {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .master,
+    .action
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .form-dispatch
+    {
+        line-height: 35px;
+    }
+
+    .form-input
+    {
+        .text-input
+        {
+            height: 35px;
+        }
+    }
+
 }

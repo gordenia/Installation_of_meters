@@ -15,7 +15,7 @@
   <body>
     <header>
       <nav class="navbar menu">
-        <div class="container">
+        <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
               <span class="icon-bar"></span>
@@ -25,32 +25,32 @@
           </div>
           <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="nav navbar-nav">
-              <li class="text-center">
+              <li class="menu-item-container">
                 <a class="menu-item" title="Информация" href="#">Информация</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="text-center">
+              <li class="menu-item-container">
                 <a class="menu-item" title="Цены" href="#">Цены</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="text-center">
+              <li class="menu-item-container">
                 <a class="menu-item" title="Документы" href="#">Документы</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="text-center">
+              <li class="menu-item-container">
                 <a class="menu-item" title="Наши партнеры" href="#">Наши партнеры</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="text-center">
+              <li class="menu-item-container">
                 <a class="menu-item" title="Куда нести документы" href="#">Куда нести документы</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="text-center"><a class="menu-item" title="Галерея" href="#">Галерея</a></li>
+              <li class="menu-item-container"><a class="menu-item" title="Галерея" href="#">Галерея</a></li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="banner container-fluid">
+      <section class="banner container-fluid">
         <div class="container">
           <div class="logo">
             <a href="#">
@@ -71,9 +71,9 @@
             </div>
             <div class="block-information">
               <div class="icon icon-phone"></div>
-              <div class="phone">
-                <div>+7(499)707-30-47</div>
-                <div>+7(800)707-30-47</div>
+              <div class="block-phone">
+                <a href="tel:+74997074037" class="phone">+7(499)707-30-47</a>
+                <a href="tel:+78007074037" class="phone">+7(800)707-30-47</a>
               </div>
             </div>
           </div>
@@ -81,29 +81,31 @@
           <div class="publicity">
             <h1 class="headline">
               Установка счетчиков воды
-              <div class="red-text">в Люберцах!</div>
+              <div class="text-red text-bold">в Люберцах!</div>
             </h1>
             <div class="master">
               <span> Выезд мастера - </span>
-              <span class="red-text">бесплатно!</span>
+              <span class="text-red text-bold">бесплатно!</span>
               <div class="icon icon-master"></div>
             </div>
             <div class="action">
               <p>
-                <span class="red-text">Акция</span>
+                <span class="text-red text-bold">Акция</span>
                 до 22.11.2016
               </p>
               <p>
                 <span>Цена за установку -</span>
-                <span class="valuta red-text"> 3300</span>
+                <span class="valuta text-red text-bold"> 3300</span>
               </p>
             </div>
           </div>
-          <form role="form" class="form-inline form-dispatch">
-            <div class="form-group form-iput">
+          <form class="form-inline form-dispatch">
+            <div class="form-group form-input">
+              <div class="icon icon-user"></div>
               <input type="text" class="form-control text-input" name="first-name" placeholder="Ваше имя"/>
             </div>
-            <div class="form-group form-iput">
+            <div class="form-group form-input">
+              <div class="icon icon-phone-form"></div>
               <input type="text" class="form-control text-input" name="phone" placeholder="+7___ __ __ ___"/>
             </div>
             <div class="pantagonal-button">
@@ -112,8 +114,153 @@
             <div class="clear"></div>
           </form>
         </div>
-      </div>
+      </section>
     </header>
+    <main class="priceCount container-fluid">
+      <div class="container">
+        <h2 class="title">
+          <span class="text-bold">Цены</span>
+          на установку и замену счетчиков
+        </h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="product">
+              <div class="icon logo-atlant"></div>
+              <div class="icon icon-flag-russia"></div>
+              <h3 class="product-name">Атлант
+                <div class="text-small text-grey">(Россия)</div>
+              </h3>
+              <img src="img/atlant.jpg" alt="атлант"/>
+              <div class="discription text-bold">
+                <div class="text-grey">Срок проверки</div>
+                6 лет холодная и горячая
+                <div class="text-grey">Срок эксплуатации</div>
+                12 лет
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Установка 1-го</div>
+                <span class="text-red text-bold">
+                  1750<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Установка 2-ух</div>
+                <span class="text-red text-bold">
+                  3300<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Замена 1-го</div>
+                <span class="text-red text-bold">
+                  1500<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Замена 2-ух</div>
+                <span class="text-red text-bold">
+                  2600<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="product">
+              <div class="icon logo-itelma"></div>
+              <div class="icon icon-flag-german"></div>
+              <h3 class="product-name">Itelma
+                <div class="text-small text-grey">(Германия)</div>
+              </h3>
+              <img src="img/itelma.jpg" alt="itelma"/>
+              <div class="discription text-bold">
+                <div class="text-grey">Срок проверки</div>
+                6 лет холодная и горячая
+                <div class="text-grey">Срок эксплуатации</div>
+                12 лет
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Установка 1-го</div>
+                <span class="text-red text-bold">
+                  1900<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Установка 2-ух</div>
+                <span class="text-red text-bold">
+                  3700<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Замена 1-го</div>
+                <span class="text-red text-bold">
+                  1700<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Замена 2-ух</div>
+                <span class="text-red text-bold">
+                  3300<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="product">
+              <div class="icon logo-valtec"></div>
+              <div class="icon icon-flag-italia"></div>
+              <h3 class="product-name">Valtec
+                <div class="text-small text-grey">(Италия)</div>
+              </h3>
+              <img src="img/valtec.jpg" alt="valtec"/>
+              <div class="discription text-bold">
+                <div class="text-grey">Срок проверки</div>
+                6 лет холодная и горячая
+                <div class="text-grey">Срок эксплуатации</div>
+                12 лет
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Установка 1-го</div>
+                <span class="text-red text-bold">
+                  1750<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Установка 2-ух</div>
+                <span class="text-red text-bold">
+                  3300<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-left">
+                <div class="icon icon-circleblock"></div>
+                <div class="text-small text-bold">Замена 1-го</div>
+                <span class="text-red text-bold">
+                  1500<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="price-container pull-right">
+                <div class="icon icon-circleblock2"></div>
+                <div class="text-small text-bold">Замена 2-ух</div>
+                <span class="text-red text-bold">
+                  2600<span class="valuta text-italic"></span>
+                </span>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
