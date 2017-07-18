@@ -126,3 +126,71 @@
     height: 30px;
     background-image: url(../img/sprite/icon_circle_block2.png);
 }
+
+.icon-service-master,
+.icon-counters,
+.icon-corner,
+.icon-attachment,
+.icon-filter,
+.icon-corner-metal,
+.icon-metal-plastic,
+.icon-stamp,
+.icon-insurance,
+.icon-package-documents
+{
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.icon-service-master
+{
+    background-image: url(../img/sprite/icon_work_master.png);
+}
+
+.icon-counters
+{
+    background-image: url(../img/sprite/icon_counters.png);
+}
+
+.icon-corner
+{
+    background-image: url(../img/sprite/icon_corner.png);
+}
+
+.icon-attachment
+{
+    background-image: url(../img/sprite/icon_attachment_set.png);
+}
+
+.icon-filter
+{
+    background-image: url(../img/sprite/icon_filter.png);
+}
+
+.icon-corner-metal
+{
+    background-image: url(../img/sprite/icon_corner_metal.png);
+}
+
+.icon-metal-plastic
+{
+    background-image: url(../img/sprite/icon_metal_plastic.png);
+}
+
+.icon-stamp
+{
+    background-image: url(../img/sprite/icon_stamp.png);
+}
+
+.icon-insurance
+{
+    background-image: url(../img/sprite/icon_insurance.png);
+}
+
+.icon-package-documents
+{
+    background-image: url(../img/sprite/icon_package_documents.png);
+}
+
+

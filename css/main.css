@@ -110,9 +110,6 @@ img {
 .text-italic {
   font-style: italic; }
 
-.text-small {
-  font-size: 12px; }
-
 .master {
   font-size: 25px;
   padding-left: 100px;
@@ -185,14 +182,16 @@ img {
   border-color: #3e82b9;
   border-left-color: #f8210b; }
 
+.section {
+  padding: 50px 0; }
+
 .price-count {
   background-image: url(../img/price_count_background.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  padding: 50px 0;
   font-family: "Roboto", sans-serif; }
 
-.title {
+.section-title {
   font-size: 34px;
   margin: 0;
   text-align: center; }
@@ -202,13 +201,17 @@ img {
   padding-top: 60px;
   margin-top: 50px;
   background-color: #ffffff;
-  position: relative; }
+  position: relative;
+  box-shadow: -8px 0 16px -5px rgba(205, 218, 228, 0.4), 8px 0 16px -5px rgba(205, 218, 228, 0.4); }
 
 .product-name {
   font-size: 32px;
   text-transform: uppercase;
   margin: 20px 0;
   font-family: "Oswald", sans-serif; }
+
+.product-country {
+  font-size: 12px; }
 
 .discription {
   font-size: 13px;
@@ -220,7 +223,73 @@ img {
   font-size: 24px;
   padding: 20px 0;
   line-height: 30px;
+  text-align: center;
   width: 50%; }
+
+.price-title {
+  font-size: 12px; }
+
+.service-list {
+  font-family: "Roboto", sans-serif;
+  position: relative; }
+
+.service-background {
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  background-image: url(../img/service_list_background.jpg);
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 100px; }
+
+.service-type {
+  display: inline-block;
+  width: 20%;
+  float: left;
+  text-align: center; }
+
+.service-type-container {
+  padding: 30px 20px; }
+
+.service-title {
+  margin: 0;
+  line-height: 17px;
+  min-height: 85px; }
+  .service-title .title-name {
+    font-size: 14px; }
+  .service-title .title-property {
+    font-size: 12px; }
+
+.service-images {
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  top: -100px;
+  border-radius: 70px;
+  background-color: #f4f8fc; }
+
+.service-feature {
+  color: #525252;
+  background-color: #ffffff;
+  font-size: 12px;
+  padding: 40px 0 25px;
+  border: 7px solid #f4f8fc;
+  margin-top: 80px;
+  position: relative; }
+
+.block-number {
+  background-color: #3476ad;
+  color: #ffffff;
+  font-size: 13px;
+  vertical-align: middle;
+  border-radius: 17.5px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  top: 0;
+  right: 0;
+  box-shadow: 0 4px 4px -1px rgba(67, 134, 189, 0.18); }
 
 .clear {
   clear: both; }

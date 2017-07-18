@@ -6,7 +6,10 @@
     background-color: transparent; }
 
   .master:after {
-    border: none; } }
+    border: none; }
+
+  .service-background {
+    display: none; } }
 @media (max-width: 991px) {
   .menu {
     font-size: 12px; }
@@ -51,11 +54,20 @@
     display: inline-block;
     float: right; }
 
-  .price-ount {
+  .section {
     padding: 15px 0; }
 
   .product {
-    margin-top: 25px; } }
+    margin-top: 15px; }
+
+  .service-type {
+    width: 50%; }
+
+  .service-type-container {
+    padding: 15px 20px; }
+
+  .service-title {
+    max-height: 75px; } }
 @media (max-width: 767px) {
   .navbar-nav {
     margin: 0 -15px;
@@ -117,7 +129,8 @@
   .street {
     margin-right: 0; }
 
-  .headline {
+  .headline,
+  .section-title {
     font-size: 27px;
     line-height: 35px; }
 
@@ -130,6 +143,9 @@
     line-height: 35px; }
 
   .form-input .text-input {
-    height: 35px; } }
+    height: 35px; }
+
+  .service-type {
+    width: 100%; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -14,6 +14,11 @@
     {
         border: none;
     }
+
+    .service-background
+    {
+        display: none;
+    }
 }
 
 @media (max-width: 991px)
@@ -86,14 +91,29 @@
         float: right;
     }
 
-    .price-count
+    .section
     {
         padding: 15px 0;
     }
 
     .product
     {
-        margin-top: 25px;
+        margin-top: 15px;
+    }
+
+    .service-type
+    {
+        width: 50%;
+    }
+
+    .service-type-container
+    {
+        padding: 15px 20px;
+    }
+
+    .service-title
+    {
+        max-height: 75px;
     }
 }
 
@@ -200,7 +220,8 @@
         margin-right: 0;
     }
 
-    .headline
+    .headline,
+    .section-title
     {
         font-size: 27px;
         line-height: 35px;
@@ -224,6 +245,11 @@
         {
             height: 35px;
         }
+    }
+
+    .service-type
+    {
+        width: 100%;
     }
 
 }
