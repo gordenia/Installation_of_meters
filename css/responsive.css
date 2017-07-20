@@ -8,8 +8,15 @@
   .master:after {
     border: none; }
 
+  .service-list {
+    padding-bottom: 20px; }
+
   .service-background {
-    display: none; } }
+    display: none; }
+
+  .verification .section-title {
+    text-align: center;
+    margin-bottom: 30px; } }
 @media (max-width: 991px) {
   .menu {
     font-size: 12px; }
@@ -55,10 +62,13 @@
     float: right; }
 
   .section {
-    padding: 15px 0; }
+    padding: 30px 0; }
 
   .product {
     margin-top: 15px; }
+
+  .service-list {
+    padding-bottom: 15px; }
 
   .service-type {
     width: 50%; }
@@ -67,7 +77,20 @@
     padding: 15px 20px; }
 
   .service-title {
-    max-height: 75px; } }
+    min-height: 75px; }
+
+  .application {
+    margin-top: 0; }
+
+  .advantages-feature {
+    min-height: 50px; }
+
+  .gallery-block {
+    width: 33.33%; }
+
+  .last {
+    width: 50%;
+    margin-top: 15px; } }
 @media (max-width: 767px) {
   .navbar-nav {
     margin: 0 -15px;
@@ -111,7 +134,19 @@
     display: none; }
 
   .price-container {
-    padding: 10px 0; } }
+    padding: 10px 0; }
+
+  .application {
+    text-align: center; }
+
+  .advantages-block {
+    margin-top: 25px; }
+
+  .advantages-feature {
+    min-height: initial; }
+
+  .gallery-block {
+    width: 100%; } }
 @media (max-width: 479px) {
   .banner,
   .publicity {

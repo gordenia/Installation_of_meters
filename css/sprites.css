@@ -193,4 +193,76 @@
     background-image: url(../img/sprite/icon_package_documents.png);
 }
 
+.icon-verification-type1
+{
+    background-image: url(../img/sprite/icon_verification_type1.png);
+    position: absolute;
+    width: 140px;
+    height: 125px;
+    right: -5px;
+    top: -7px;
+}
 
+.icon-verification-type2
+{
+    background-image: url(../img/sprite/icon_verification_type2.png);
+    position: absolute;
+    width: 115px;
+    height: 110px;
+    right: 0;
+    top: -7px;
+}
+
+.icon-document,
+.icon-expert,
+.icon-money,
+.icon-sertificates,
+.icon-calendar,
+.icon-warranty,
+.icon-discounts,
+.icon-partner
+
+{
+    width: 180px;
+    height: 180px;
+}
+
+.icon-document
+{
+    background-image: url(../img/sprite/icon_document.png);
+}
+.icon-expert
+{
+    background-image: url(../img/sprite/icon_expert.png);
+}
+
+.icon-money
+{
+    background-image: url(../img/sprite/icon_money.png);
+}
+
+.icon-sertificates
+{
+    background-image: url(../img/sprite/icon_sertificates.png);
+    width: 200px;
+}
+
+.icon-calendar
+{
+    background-image: url(../img/sprite/icon_calendar.png);
+}
+
+.icon-warranty
+{
+    background-image: url(../img/sprite/icon_warranty.png);
+}
+
+.icon-discounts
+{
+    background-image: url(../img/sprite/icon_discounts.png);
+}
+
+.icon-partner
+{
+    background-image: url(../img/sprite/icon_partner.png);
+}
