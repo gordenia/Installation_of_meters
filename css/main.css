@@ -23,6 +23,11 @@ img {
 .section {
   padding: 50px 0; }
 
+.section-title {
+  font-size: 32px;
+  margin: 0;
+  text-align: center; }
+
 .clear {
   clear: both; }
 
@@ -65,7 +70,7 @@ img {
   vertical-align: text-bottom; }
 
 .banner {
-  background-image: url(../img/header_background.jpg);
+  background-image: url(../img/clouds_background.jpg);
   padding: 50px 0 0;
   background-size: cover;
   font-family: "Roboto", sans-serif; }
@@ -202,11 +207,8 @@ img {
   background-repeat: no-repeat;
   background-position: bottom;
   font-family: "Roboto", sans-serif; }
-
-.section-title {
-  font-size: 34px;
-  margin: 0;
-  text-align: center; }
+  .price-count .section-title {
+    font-size: 34px; }
 
 .product {
   text-align: center;
@@ -312,10 +314,10 @@ img {
   font-family: "Roboto", sans-serif;
   background-color: #eaf7ff; }
   .verification .section-title {
-    font-size: 32px;
     text-align: left; }
 
-.price-verification {
+.price-verification,
+.specialists-block {
   text-align: left;
   background-color: #fbfcfe;
   position: relative;
@@ -385,5 +387,36 @@ img {
 .license-information {
   font-size: 19px;
   margin-top: 50px; }
+
+.specialists {
+  background-image: url(../img/clouds_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif; }
+  .specialists .section-title {
+    text-align: left; }
+  .specialists .specialists-block {
+    box-shadow: none;
+    padding: 110px 45px 20px 20px; }
+
+.specialists-services {
+  margin-top: 90px; }
+  .specialists-services .circle-background {
+    border-radius: 95px; }
+
+.specialists-name {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.specialists-function {
+  font-size: 13px; }
+
+.specialists-experience {
+  font-size: 14px; }
+
+.specialists-foto {
+  position: absolute;
+  left: 30px;
+  top: -95px; }
 
 /*# sourceMappingURL=main.css.map */

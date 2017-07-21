@@ -221,7 +221,6 @@
 .icon-warranty,
 .icon-discounts,
 .icon-partner
-
 {
     width: 180px;
     height: 180px;
@@ -265,4 +264,27 @@
 .icon-partner
 {
     background-image: url(../img/sprite/icon_partner.png);
+}
+
+.icon-spec1,
+.icon-spec2,
+.icon-spec3
+{
+    width: 190px;
+    height: 190px;
+}
+
+.icon-spec1
+{
+    background-image: url(../img/sprite/icon_spec_1.png);
+}
+
+.icon-spec2
+{
+    background-image: url(../img/sprite/icon_spec_2.png);
+}
+
+.icon-spec3
+{
+    background-image: url(../img/sprite/icon_spec_3.png);
 }

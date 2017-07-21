@@ -43,6 +43,14 @@ img
     padding: 50px 0;
 }
 
+
+.section-title
+{
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+}
+
 .clear
 {
     clear: both;
@@ -108,7 +116,7 @@ img
 
 .banner
 {
-    background-image: url(../img/header_background.jpg);
+    background-image: url(../img/clouds_background.jpg);
     padding: 50px 0 0;
     background-size: cover;
     font-family: $textFontFamily;
@@ -299,13 +307,11 @@ img
     background-repeat: no-repeat;
     background-position: bottom;
     font-family: $textFontFamily;
-}
 
-.section-title
-{
-    font-size: 34px;
-    margin: 0;
-    text-align: center;
+    .section-title
+    {
+        font-size: 34px;
+    }
 }
 
 .product
@@ -449,12 +455,12 @@ img
 
     .section-title
     {
-        font-size: 32px;
         text-align: left;
     }
 }
 
-.price-verification
+.price-verification,
+.specialists-block
 {
     text-align: left;
     background-color: #fbfcfe;
@@ -560,4 +566,56 @@ img
 {
     font-size: 19px;
     margin-top: 50px;
+}
+
+.specialists
+{
+    background-image: url(../img/clouds_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $textFontFamily;
+
+    .section-title
+    {
+        text-align: left;
+    }
+
+    .specialists-block
+    {
+        box-shadow: none;
+        padding: 110px 45px 20px 20px;
+    }
+}
+
+.specialists-services
+{
+    margin-top: 90px;
+
+    .circle-background
+    {
+        border-radius: 95px;
+    }
+}
+
+.specialists-name
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.specialists-function
+{
+    font-size: 13px;
+}
+
+.specialists-experience
+{
+    font-size: 14px;
+}
+
+.specialists-foto
+{
+    position: absolute;
+    left: 30px;
+    top: -95px;
 }

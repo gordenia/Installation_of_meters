@@ -14,7 +14,8 @@
   .service-background {
     display: none; }
 
-  .verification .section-title {
+  .verification .section-title,
+  .specialists .section-title {
     text-align: center;
     margin-bottom: 30px; } }
 @media (max-width: 991px) {
@@ -90,7 +91,10 @@
 
   .last {
     width: 50%;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+
+  .specialists .specialists-block {
+    padding: 110px 20px 20px; } }
 @media (max-width: 767px) {
   .navbar-nav {
     margin: 0 -15px;
@@ -181,6 +185,13 @@
     height: 35px; }
 
   .service-type {
-    width: 100%; } }
+    width: 100%; }
+
+  .specialists .specialists-block {
+    text-align: center; }
+
+  .specialists-foto {
+    left: 50%;
+    margin-left: -95px; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -25,7 +25,8 @@
         display: none;
     }
 
-    .verification
+    .verification,
+    .specialists
     {
         .section-title
         {
@@ -155,6 +156,15 @@
         width: 50%;
         margin-top: 15px;
     }
+
+    .specialists
+    {
+        .specialists-block
+        {
+            padding: 110px 20px 20px;
+        }
+    }
+
 }
 
 @media (max-width: 767px)
@@ -310,6 +320,20 @@
     .service-type
     {
         width: 100%;
+    }
+
+    .specialists
+    {
+        .specialists-block
+        {
+            text-align: center;
+        }
+    }
+
+    .specialists-foto
+    {
+        left: 50%;
+        margin-left: -95px;
     }
 
 }
