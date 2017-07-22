@@ -86,9 +86,6 @@
   .advantages-feature {
     min-height: 50px; }
 
-  .gallery-block {
-    width: 33.33%; }
-
   .last {
     width: 50%;
     margin-top: 15px; }
@@ -143,14 +140,16 @@
   .application {
     text-align: center; }
 
-  .advantages-block {
+  .advantages-block,
+  .licence-block,
+  .license-information {
     margin-top: 25px; }
 
   .advantages-feature {
     min-height: initial; }
 
-  .gallery-block {
-    width: 100%; } }
+  .copyright {
+    font-size: 12px; } }
 @media (max-width: 479px) {
   .banner,
   .publicity {

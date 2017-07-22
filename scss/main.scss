@@ -548,24 +548,23 @@ img
     text-align: center;
 }
 
+.licence-block,
 .gallery-block
 {
-    display: inline-block;
-    width: 20%;
-    float: left;
     margin-top: 35px;
+    cursor: url(../img/sprite/icon_zoom.png), pointer;
+    display: block;
 }
 
-.license-image
+.licence-block:hover
 {
-    padding: 0 15px;
-    display: block;
+    opacity: 0.5;
 }
 
 .license-information
 {
     font-size: 19px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .specialists
@@ -618,4 +617,92 @@ img
     position: absolute;
     left: 30px;
     top: -95px;
+}
+
+.gallery
+{
+    background-image: url(../img/gallery_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $textFontFamily;
+    color: #ffffff;
+}
+
+.gallery-image
+{
+    width: 100%;
+    border: 10px solid #ffffff;
+}
+
+.map
+{
+    position: relative;
+}
+
+.contacts-company
+{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 30px 50px 30px 25px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    margin-top: -150px;
+
+    .img-logo
+    {
+        max-width: 35px;
+    }
+
+    .block-information
+    {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .company-name
+    {
+        font-size: 25px;
+    }
+
+    .company-services
+    {
+        font-size: 10px;
+    }
+
+    .city
+    {
+        font-size: 16px;
+    }
+
+    .street
+    {
+        font-size: 14px;
+    }
+
+    .block-phone
+    {
+        font-size: 21px;
+    }
+
+    .red-button
+    {
+        font-size: 16px;
+        line-height: 45px;
+    }
+
+    .red-button:before
+    {
+        display: none;
+    }
+}
+
+.copyright
+{
+    background-color: #12202c;
+    font-family: $textFontFamily;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px 0;
 }

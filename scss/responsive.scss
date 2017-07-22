@@ -146,11 +146,6 @@
         min-height: 50px;
     }
 
-    .gallery-block
-    {
-        width: 33.33%;
-    }
-
     .last
     {
         width: 50%;
@@ -246,7 +241,9 @@
         text-align: center;
     }
 
-    .advantages-block
+    .advantages-block,
+    .licence-block,
+    .license-information
     {
         margin-top: 25px;
     }
@@ -256,9 +253,9 @@
         min-height: initial;
     }
 
-    .gallery-block
+    .copyright
     {
-        width: 100%;
+        font-size: 12px;
     }
 }
 
