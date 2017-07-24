@@ -20,6 +20,14 @@ img {
 .text-italic {
   font-style: italic; }
 
+.animate {
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+.animate:hover,
+.animate:focus {
+  opacity: 0.5; }
+
 .section {
   padding: 50px 0; }
 
@@ -53,7 +61,8 @@ img {
     display: inline-block;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700;
+    transition: background-color 0.5s, color 0.5s; }
   .menu .menu-item:hover,
   .menu .menu-item:focus {
     background-color: #29679b;
@@ -71,7 +80,7 @@ img {
 
 .banner {
   background-image: url(../img/clouds_background.jpg);
-  padding: 50px 0 0;
+  padding: 100px 0 0;
   background-size: cover;
   font-family: "Roboto", sans-serif; }
 
@@ -380,9 +389,6 @@ img {
   cursor: url(../img/sprite/icon_zoom.png), pointer;
   display: block; }
 
-.licence-block:hover {
-  opacity: 0.5; }
-
 .license-information {
   font-size: 19px;
   margin-top: 35px; }
@@ -418,7 +424,7 @@ img {
   left: 30px;
   top: -95px; }
 
-.gallery {
+.gallery-work {
   background-image: url(../img/gallery_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -429,7 +435,8 @@ img {
   width: 100%;
   border: 10px solid #ffffff; }
 
-.map {
+.map,
+.contacts {
   position: relative; }
 
 .contacts-company {
@@ -437,8 +444,9 @@ img {
   display: inline-block;
   padding: 30px 50px 30px 25px;
   position: absolute;
-  right: 0;
+  right: 15px;
   top: 200px;
+  z-index: 100;
   margin-top: -150px; }
   .contacts-company .img-logo {
     max-width: 35px; }
