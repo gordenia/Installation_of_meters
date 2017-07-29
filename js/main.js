@@ -15,11 +15,12 @@ $(document).ready(function()
         {
             if ( ! $(this).prev().hasClass('input-ghost') )
             {
-                var element = $("<input type='file' class='input-ghost' style='visibility:hidden; height:0'>");
+                var element = $("<input type='file' class='input-ghost' style='visibility:hidden; height:0' multiple>");
                 element.attr("name",$(this).attr("name"));
                 element.change(function()
                 {
                     element.next(element).find('input').val((element.val()).split('\\').pop());
+                    $('.btn-reset').css('display','block');
                 });
                 $(this).find("button.btn-choose").click(function()
                 {
@@ -29,6 +30,7 @@ $(document).ready(function()
                 {
                     element.val(null);
                     $(this).parents(".input-file").find('input').val('');
+                    $('.btn-reset').css('display','none');
                 });
                 $(this).find('input').css("cursor","pointer");
                 $(this).find('input').mousedown(function()

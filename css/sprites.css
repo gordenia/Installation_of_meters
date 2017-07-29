@@ -1,9 +1,16 @@
 .icon
 {
+    background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
-    background-position: center;
+}
+
+.icon_jpg
+{
+    background-image: url(../img/spritesheet1.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .icon-bar
@@ -13,23 +20,23 @@
 
 .icon-location
 {
-    background-image: url(../img/sprite/icon_location.png);
-    width: 30px;
+    width: 25px;
     height: 30px;
+    background-position: -283px -145px;
 }
 
 .icon-phone
 {
-    background-image: url(../img/sprite/icon_phone.png);
     width: 30px;
     height: 30px;
+    background-position: -493px -145px;
 }
 
-.icon-master
+icon-master
 {
-    background-image: url(../img/sprite/icon_master.png);
-    width: 80px;
-    height: 100px;
+    width: 77px;
+    height: 96px;
+    background-position: -318px -145px;
     position: absolute;
     left: 10px;
     bottom: 0;
@@ -38,44 +45,46 @@
 .icon-user,
 .icon-phone-form
 {
-    width: 40px;
-    height: 30px;
+    width: 60px;
+    height: 38px;
     position: absolute;
     left: 0;
     top: 50%;
-    margin-top: -15px;
+    margin-top: -19px;
     border-right: 1px solid #cccccc;
+    vertical-align: middle;
+    background-position: center;
 }
 
 .icon-user
 {
-    background-image: url(../img/sprite/icon_user.png);
+    background-position: -119px -397px;
 }
 
 .icon-phone-form
 {
-    background-image: url(../img/sprite/icon_phone_form.png);
+    background-position: -483px -185px;
 }
 
 .icon-load
 {
-    background-image: url(../img/sprite/icon_load.png);
     width: 40px;
     height: 30px;
+    background-position: 1px -145px;
 }
 
 .icon-del
 {
-    background-image: url(../img/sprite/icon_del.png);
     width: 40px;
     height: 30px;
+    background-position: 0 -105px;
 }
 
 .logo-atlant
 {
-    background-image: url(../img/sprite/logo_atlant.png);
     width: 60px;
-    height: 80px;
+    height: 73px;
+    background-position: -178px -397px;
     position: absolute;
     top: 0;
     left: 20px;
@@ -83,9 +92,9 @@
 
 .logo-itelma
 {
-    background-image: url(../img/sprite/logo_itelma.png);
     width: 100px;
     height: 28px;
+    background-position: -125px -516px;
     position: absolute;
     top: 4px;
     left: 20px;
@@ -93,9 +102,9 @@
 
 .logo-valtec
 {
-    background-image: url(../img/sprite/logo_valtec.png);
     width: 108px;
     height: 17px;
+    background-position: -235px -516px;
     position: absolute;
     top: 4px;
     left: 20px;
@@ -105,8 +114,6 @@
 .icon-flag-german,
 .icon-flag-italia
 {
-    width: 50px;
-    height: 30px;
     position: absolute;
     top: 0;
     right: 10px;
@@ -114,31 +121,37 @@
 
 .icon-flag-russia
 {
-    background-image: url(../img/sprite/icon_flag_russia.png);
+    width: 50px;
+    height: 30px;
+    background-position: -492px -105px;
 }
 
 .icon-flag-german
 {
-    background-image: url(../img/sprite/icon_flag_german.png);
+    width: 50px;
+    height: 30px;
+    background-position: -153px -105px;
 }
 
 .icon-flag-italia
 {
-    background-image: url(../img/sprite/icon_flag_italia.png);
+    width: 48px;
+    height: 30px;
+    background-position: -434px -105px;
 }
 
 .icon-circleblock
 {
-    width: 35px;
+    width: 34px;
     height: 30px;
-    background-image: url(../img/sprite/icon_circle_block.png);
+    background-position: -123px -5px;
 }
 
 .icon-circleblock2
 {
-    width: 50px;
+    width: 51px;
     height: 30px;
-    background-image: url(../img/sprite/icon_circle_block2.png);
+    background-position: -167px -10px;
 }
 
 .icon-service-master,
@@ -152,153 +165,179 @@
 .icon-insurance,
 .icon-package-documents
 {
-    width: 140px;
-    height: 140px;
     position: relative;
 }
 
 .icon-service-master
 {
-    background-image: url(../img/sprite/icon_work_master.png);
+    width: 110px;
+    height: 102px;
+    background-position: -5px -516px;
 }
 
 .icon-counters
 {
-    background-image: url(../img/sprite/icon_counters.png);
+    width: 120px;
+    height: 90px;
+    background-position: -434px -5px;
 }
 
 .icon-corner
 {
-    background-image: url(../img/sprite/icon_corner.png);
+    width: 100px;
+    height: 98px;
+    background-position: -228px -5px;
 }
 
 .icon-attachment
 {
-    background-image: url(../img/sprite/icon_attachment_set.png);
+    width: 108px;
+    height: 89px;
+    background-position: -5px -5px;
 }
 
 .icon-filter
 {
-    background-image: url(../img/sprite/icon_filter.png);
+    width: 98px;
+    height: 99px;
+    background-position: -45px -105px;
 }
 
 .icon-corner-metal
 {
-    background-image: url(../img/sprite/icon_corner_metal.png);
+    width: 86px;
+    height: 92px;
+    background-position: -338px -5px;
 }
 
 .icon-metal-plastic
 {
-    background-image: url(../img/sprite/icon_metal_plastic.png);
+    width: 78px;
+    height: 105px;
+    background-position: -405px -145px;
 }
 
 .icon-stamp
 {
-    background-image: url(../img/sprite/icon_stamp.png);
+    width: 113px;
+    height: 85px;
+    background-position: -5px -397px;
 }
 
 .icon-insurance
 {
-    background-image: url(../img/sprite/icon_insurance.png);
+    width: 120px;
+    height: 111px;
+    background-position: -153px -145px;
 }
 
 .icon-package-documents
 {
-    background-image: url(../img/sprite/icon_package_documents.png);
+    width: 109px;
+    height: 83px;
+    background-position: -5px -260px;
 }
 
 .icon-verification-type1
 {
-    background-image: url(../img/sprite/icon_verification_type1.png);
     position: absolute;
-    width: 140px;
-    height: 125px;
     right: -5px;
     top: -7px;
 }
 
+.icon-verification-type1
+{
+    width: 141px;
+    height: 127px;
+    background-position: -479px -397px;
+}
+
 .icon-verification-type2
 {
-    background-image: url(../img/sprite/icon_verification_type2.png);
-    position: absolute;
     width: 115px;
-    height: 110px;
+    height: 109px;
+    background-position: -630px -397px;
+    position: absolute;
     right: 0;
     top: -7px;
 }
 
-.icon-document,
-.icon-expert,
-.icon-money,
-.icon-sertificates,
-.icon-calendar,
-.icon-warranty,
-.icon-discounts,
-.icon-partner
-{
-    width: 180px;
-    height: 180px;
-}
 
 .icon-document
 {
-    background-image: url(../img/sprite/icon_document.png);
+    width: 170px;
+    height: 185px;
+    background-position: -5px -186px;
 }
+
 .icon-expert
 {
-    background-image: url(../img/sprite/icon_expert.png);
+    width: 170px;
+    height: 185px;
+    background-position: -185px -189px;
 }
 
 .icon-money
 {
-    background-image: url(../img/sprite/icon_money.png);
+    width: 193px;
+    height: 185px;
+    background-position: -5px -374px;
 }
 
 .icon-sertificates
 {
-    background-image: url(../img/sprite/icon_sertificates.png);
-    width: 200px;
+    width: 198px;
+    height: 185px;
+    background-position: -545px 0;
 }
 
 .icon-calendar
 {
-    background-image: url(../img/sprite/icon_calendar.png);
+    width: 170px;
+    height: 185px;
+    background-position: -5px 2px;
 }
 
 .icon-warranty
 {
-    background-image: url(../img/sprite/icon_warranty.png);
+    width: 185px;
+    height: 185px;
+    background-position: -446px -363px;
 }
 
 .icon-discounts
 {
-    background-image: url(../img/sprite/icon_discounts.png);
+    width: 196px;
+    height: 185px;
+    background-position: -185px 0;
 }
 
 .icon-partner
 {
-    background-image: url(../img/sprite/icon_partner.png);
+    width: 170px;
+    height: 185px;
+    background-position: -365px -180px;
 }
 
 .icon-spec1,
 .icon-spec2,
 .icon-spec3
 {
-    width: 190px;
-    height: 190px;
+    width: 186px;
+    height: 186px;
 }
 
 .icon-spec1
 {
-    background-image: url(../img/sprite/icon_spec_1.png);
+    background-position: -283px -260px;
 }
 
 .icon-spec2
 {
-    background-image: url(../img/sprite/icon_spec_2.png);
+    background-position: -564px -5px;
 }
 
 .icon-spec3
 {
-    background-image: url(../img/sprite/icon_spec_3.png);
+    background-position: -543px -201px;
 }

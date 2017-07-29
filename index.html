@@ -92,28 +92,29 @@
               <div class="icon icon-master"></div>
             </div>
             <div class="action">
-              <p id="blink7">
+              <p class="blink7">
                 <span class="text-red text-bold">Акция</span>
                 <span>до 22.11.2016</span>
               </p>
-              <p>
-                <div id="blink6">
-                  <span>Цена за установку -</span>
-                  <span class="valuta text-red text-bold">1650</span>
+              <div>
+                <div class="blink6">
+                  <p>
+                    <span>Цена за установку -</span>
+                    <span class="valuta text-red text-bold">1650</span>
+                  </p>
+                  <p>
+                    <span>Цена на замену -</span>
+                    <span class="valuta text-red text-bold">1500</span>
+                  </p>
+                  <p>
+                    <span>Цена на поверку -</span>
+                    <span class="valuta text-red text-bold">600</span>
+                  </p>
                 </div>
-              </p>
-              <p>
-                <span>Цена на замену -</span>
-                <span class="valuta text-red text-bold">1500</span>
-              </p>
-              <p>
-                <span>Цена на поверку -</span>
-                <span class="valuta text-red text-bold">600</span>
-              </p>
               </div>
             </div>
-            <div class="clear"></div>
           </div>
+          <div class="clear"></div>
           <form class="form-inline form-dispatch">
             <div class="form-group form-input">
               <div class="icon icon-user"></div>
@@ -562,42 +563,42 @@
           </h2>
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-document"></div>
+              <div class="icon_jpg icon-document"></div>
               <div class="advantages-title">Работы застрахованы</div>
               <div class="advantages-feature">Наша ответственность застрахована на 2 000 000 руб.</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-expert"></div>
+              <div class="icon_jpg icon-expert"></div>
               <div class="advantages-title">Опытные мастера</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-money"></div>
+              <div class="icon_jpg icon-money"></div>
               <div class="advantages-title">Конкурентные цены</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-sertificates"></div>
+              <div class="icon_jpg icon-sertificates"></div>
               <div class="advantages-title">Пакет документов</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-calendar"></div>
+              <div class="icon_jpg icon-calendar"></div>
               <div class="advantages-title">Выполнение заявки день в день</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-warranty"></div>
+              <div class="icon_jpg icon-warranty"></div>
               <div class="advantages-title">Гарантии на выполненные работы</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-discounts"></div>
+              <div class="icon_jpg icon-discounts"></div>
               <div class="advantages-title">Скидки на коллективные заявки</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-partner"></div>
+              <div class="icon_jpg icon-partner"></div>
               <div class="advantages-title">Сотрудничество с ТСЖ, ДЭЗ, ЖЭК</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
@@ -850,38 +851,32 @@
     </footer>
     <div class="modal fade" id="modalWindow" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+        <form class="form-dispatch">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="form-group form-input">
+            <div class="icon icon-user"></div>
+            <input type="text" class="form-control text-input" name="first-name" placeholder="Ваше имя"/>
+          </div>
+          <div class="form-group form-input">
+            <div class="icon icon-phone-form"></div>
+            <input type="text" class="form-control text-input" name="phone" placeholder="+7___ __ __ ___"/>
+          </div>
+          <div class="pantagonal-button">
+            <button type="submit" class="red-button animate">Оставить заявку</button>
+          </div>
+          <div class="form-group input-file">
+            <button class="btn-choose" type="button">
+              <div class="icon icon-load"></div>
+            </button>
+            <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
+            <button class="btn-reset" type="button">
+              <div class="icon icon-del"></div>
             </button>
           </div>
-          <div class="modal-body">
-            <form class="form-dispatch">
-              <div class="form-group form-input">
-                <div class="icon icon-user"></div>
-                <input type="text" class="form-control text-input" name="first-name" placeholder="Ваше имя"/>
-              </div>
-              <div class="form-group form-input">
-                <div class="icon icon-phone-form"></div>
-                <input type="text" class="form-control text-input" name="phone" placeholder="+7___ __ __ ___"/>
-              </div>
-              <div class="pantagonal-button">
-                <button type="submit" class="red-button animate">Оставить заявку</button>
-              </div>
-              <div class="form-group input-file">
-                <button class="btn-choose" type="button">
-                  <div class="icon icon-load"></div>
-                </button>
-                <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
-                <button class="btn-reset" type="button">
-                  <div class="icon icon-del"></div>
-                </button>
-              </div>
-              <div class="clear"></div>
-            </form>
-          </div>
-        </div>
+          <div class="clear"></div>
+        </form>
       </div>
     </div>
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>

@@ -168,8 +168,6 @@
   .block-information {
     display: block;
     padding-top: 5px; }
-    .block-information .icon {
-      background-position: left; }
 
   .street {
     margin-right: 0; }
@@ -193,7 +191,7 @@
 
   .btn-reset,
   .btn-choose {
-    top: 2px; }
+    top: 1px; }
 
   .service-type {
     width: 100%; }
