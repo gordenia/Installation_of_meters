@@ -91,7 +91,7 @@
     {
         display: inline-block;
         padding-left: 0;
-        margin: 15px 0;
+        margin: 25px 0;
         line-height: 45px;
 
         .icon-master
@@ -324,12 +324,19 @@
         line-height: 35px;
     }
 
-    .form-input
+    .form-input,
+    .input-file
     {
         .text-input
         {
             height: 35px;
         }
+    }
+
+    .btn-reset,
+    .btn-choose
+    {
+        top: 2px;
     }
 
     .service-type

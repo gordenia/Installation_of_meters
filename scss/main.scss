@@ -3,9 +3,11 @@ $headerFontFamily: 'Oswald', sans-serif;
 $textFontFamily: 'Roboto', sans-serif;
 
 a:hover,
-a:focus
+a:focus,
+button:focus
 {
     text-decoration: none;
+    outline: none;
 }
 
 img
@@ -222,7 +224,7 @@ img
     background-color: #ebf3f9;
     line-height: 60px;
     position: relative;
-    margin: 50px 0;
+    margin: 50px 0 40px;
     display: inline-block;
 }
 
@@ -240,7 +242,7 @@ img
 .action
 {
     font-size: 22px;
-    line-height: 32px;
+    line-height: 25px;
 
     .text-red
     {
@@ -263,7 +265,8 @@ img
     line-height: 50px;
 }
 
-.form-input
+.form-input,
+.input-file
 {
     width: 35%!important;
     border-radius: 0;
@@ -279,6 +282,37 @@ img
         height: 50px;
         padding-left: 45px;
     }
+}
+
+.input-file
+{
+    width: 100%!important;
+    padding-right: 0;
+    margin: 15px 0 0;
+}
+
+.btn-choose,
+.btn-reset
+{
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 0;
+    font: initial;
+}
+
+.btn-choose
+{
+    left: 1px;
+    top: 11px;
+    border-right: 1px solid #cccccc;
+}
+
+.btn-reset
+{
+    right: 1px;
+    top: 11px;
+    border-left: 1px solid #cccccc;
 }
 
 .pantagonal-button
@@ -480,6 +514,11 @@ img
     margin-bottom: 25px;
 }
 
+.price-verification:hover
+{
+    box-shadow: 1px 1px 1px 1px #575780;
+}
+
 .price-block
 {
     padding: 20px 60px 20px 20px;
@@ -640,7 +679,11 @@ img
     border: 10px solid #ffffff;
 }
 
-.map,
+.map
+{
+    position: relative;
+    height: 400px;
+}
 .contacts
 {
     position: relative;
@@ -713,4 +756,88 @@ img
     text-align: center;
     color: #ffffff;
     padding: 25px 0;
+}
+
+.modal
+{
+    .form-input
+    {
+        width: 100% !important;
+        padding-right: 0;
+    }
+
+    .pantagonal-button
+    {
+        width: 100%;
+    }
+
+    .red-button:before
+    {
+        display: none;
+    }
+}
+
+@-webkit-keyframes pulsate
+{
+    50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate
+{
+    50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+
+#blink7 {
+    color: rgb(245,245,245);
+    line-height: 35px;
+    display: inline-block;
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    background: rgba(62, 130, 185, 0.47);
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+
+@-webkit-keyframes blink6
+{
+    10% { transform: scale(1, 1) rotate(80deg); }
+    20% { transform: scale(0, 0) rotate(160deg); }
+    100% { transform: scale(0, 0) rotate(0deg); }
+}
+
+@keyframes blink6
+{
+    10% { transform: scale(1, 1) rotate(80deg); }
+    20% { transform: scale(0, 0) rotate(160deg); }
+    100% { transform: scale(0, 0) rotate(0deg); }
+}
+
+#blink6
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-shadow: 0 0 10px #3d7a97;
+    background: rgba(62, 130, 185, 0.47);
+}
+
+#blink6:after, #blink6:before {
+    content: "";
+    position: absolute; top: 0; left: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image:
+            radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
+            linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
+            linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+    -webkit-animation: blink6 10s linear infinite;
+    animation: blink6 10s linear infinite;
+    transform: scale(0, 0) rotate(0deg);
+}
+
+#blink6:before
+{
+    top: -30%;
+    right: 0; left: auto;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
 }

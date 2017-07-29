@@ -57,6 +57,20 @@
     background-image: url(../img/sprite/icon_phone_form.png);
 }
 
+.icon-load
+{
+    background-image: url(../img/sprite/icon_load.png);
+    width: 40px;
+    height: 30px;
+}
+
+.icon-del
+{
+    background-image: url(../img/sprite/icon_del.png);
+    width: 40px;
+    height: 30px;
+}
+
 .logo-atlant
 {
     background-image: url(../img/sprite/logo_atlant.png);

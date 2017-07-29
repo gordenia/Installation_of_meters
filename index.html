@@ -27,10 +27,6 @@
           <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="nav navbar-nav">
               <li class="menu-item-container">
-                <a class="menu-item" title="Установка, замена, поверка счетчиков" href="#">Информация</a>
-                <div class="vertical-line"></div>
-              </li>
-              <li class="menu-item-container">
                 <a class="menu-item" title="Цены на установку" href="#priceCount">Цены на установку</a>
                 <div class="vertical-line"></div>
               </li>
@@ -46,7 +42,13 @@
                 <a class="menu-item" title="Преимущества" href="#advantages">Преимущества</a>
                 <div class="vertical-line"></div>
               </li>
-              <li class="menu-item-container"><a class="menu-item" title="Наши работы" href="#gallery">Наши работы</a></li>
+              <li class="menu-item-container">
+                <a class="menu-item" title="Наши работы" href="#gallery">Наши работы</a>
+                <div class="vertical-line"></div>
+              </li>
+              <li class="menu-item-container">
+                <a class="menu-item" title="Наши мастера" href="#master">Мастера</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -90,15 +92,27 @@
               <div class="icon icon-master"></div>
             </div>
             <div class="action">
-              <p>
+              <p id="blink7">
                 <span class="text-red text-bold">Акция</span>
-                до 22.11.2016
+                <span>до 22.11.2016</span>
               </p>
               <p>
-                <span>Цена за установку -</span>
-                <span class="valuta text-red text-bold">3.300</span>
+                <div id="blink6">
+                  <span>Цена за установку -</span>
+                  <span class="valuta text-red text-bold">1650</span>
+                </div>
               </p>
+              <p>
+                <span>Цена на замену -</span>
+                <span class="valuta text-red text-bold">1500</span>
+              </p>
+              <p>
+                <span>Цена на поверку -</span>
+                <span class="valuta text-red text-bold">600</span>
+              </p>
+              </div>
             </div>
+            <div class="clear"></div>
           </div>
           <form class="form-inline form-dispatch">
             <div class="form-group form-input">
@@ -111,6 +125,15 @@
             </div>
             <div class="pantagonal-button">
               <button type="submit" class="red-button animate">Оставить заявку</button>
+            </div>
+            <div class="form-group input-file">
+              <button class="btn-choose" type="button">
+                <div class="icon icon-load"></div>
+              </button>
+              <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
+              <button class="btn-reset" type="button">
+                <div class="icon icon-del"></div>
+              </button>
             </div>
             <div class="clear"></div>
           </form>
@@ -263,9 +286,9 @@
           </div>
         </div>
       </section>
-      <section class="service-list container-fluid section">
+      <section class="service-list container-fluid section" id="service">
         <div class="service-background"></div>
-        <div class="container" id="service">
+        <div class="container">
           <h2 class="section-title">
             <span class="text-bold">Что входит</span>
             в установку
@@ -519,6 +542,15 @@
             <div class="pantagonal-button">
               <button type="submit" class="red-button animate">Оставить заявку</button>
             </div>
+            <div class="form-group input-file">
+              <button class="btn-choose" type="button">
+                <div class="icon icon-load"></div>
+              </button>
+              <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
+              <button class="btn-reset" type="button">
+                <div class="icon icon-del"></div>
+              </button>
+            </div>
             <div class="clear"></div>
           </form>
         </div>
@@ -540,7 +572,7 @@
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-money circle-background"></div>
+              <div class="icon icon-money"></div>
               <div class="advantages-title">Конкурентные цены</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
@@ -560,12 +592,12 @@
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-discounts circle-background"></div>
+              <div class="icon icon-discounts"></div>
               <div class="advantages-title">Скидки на коллективные заявки</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 advantages-block">
-              <div class="icon icon-partner circle-background"></div>
+              <div class="icon icon-partner"></div>
               <div class="advantages-title">Сотрудничество с ТСЖ, ДЭЗ, ЖЭК</div>
               <div class="advantages-feature">У нас работают только самые опытные мастера</div>
             </div>
@@ -665,7 +697,7 @@
         </div>
       </section>
       <section class="specialists container-fluid section">
-       <div class="container">
+       <div class="container" id ="master">
          <div class="row">
            <div class="col-xs-12 col-lg-2">
              <h2 class="section-title">
@@ -735,6 +767,15 @@
            <div class="pantagonal-button">
              <button type="submit" class="red-button animate">Оставить заявку</button>
            </div>
+           <div class="form-group input-file">
+             <button class="btn-choose" type="button">
+               <div class="icon icon-load"></div>
+             </button>
+             <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
+             <button class="btn-reset" type="button">
+               <div class="icon icon-del"></div>
+             </button>
+           </div>
            <div class="clear"></div>
          </form>
        </div>
@@ -744,10 +785,6 @@
       <nav class="navbar menu">
         <div class="container-fluid">
           <ul class="nav navbar-nav">
-            <li class="menu-item-container">
-              <a class="menu-item" title="Установка, замена, поверка счетчиков" href="#">Информация</a>
-              <div class="vertical-line"></div>
-            </li>
             <li class="menu-item-container">
               <a class="menu-item" title="Цены на установку" href="#priceCount">Цены на установку</a>
               <div class="vertical-line"></div>
@@ -764,7 +801,13 @@
               <a class="menu-item" title="Преимущества" href="#advantages">Преимущества</a>
               <div class="vertical-line"></div>
             </li>
-            <li class="menu-item-container"><a class="menu-item" title="Наши работы" href="#gallery">Наши работы</a></li>
+            <li class="menu-item-container">
+              <a class="menu-item" title="Наши работы" href="#gallery">Наши работы</a>
+              <div class="vertical-line"></div>
+            </li>
+            <li class="menu-item-container">
+              <a class="menu-item" title="Наши мастера" href="#master">Мастера</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -795,7 +838,7 @@
               </div>
             </div>
             <div class="block-information">
-              <button type="submit" class="red-button animate">Написать нам</button>
+              <button type="submit" class="red-button animate" data-toggle="modal" data-target="#modalWindow">Написать нам</button>
             </div>
           </div>
         </div>
@@ -805,6 +848,42 @@
         ООО ЕИРЦ-Групп. Установка счётчиков воды © 2016 Все права защищены.
       </div>
     </footer>
+    <div class="modal fade" id="modalWindow" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="form-dispatch">
+              <div class="form-group form-input">
+                <div class="icon icon-user"></div>
+                <input type="text" class="form-control text-input" name="first-name" placeholder="Ваше имя"/>
+              </div>
+              <div class="form-group form-input">
+                <div class="icon icon-phone-form"></div>
+                <input type="text" class="form-control text-input" name="phone" placeholder="+7___ __ __ ___"/>
+              </div>
+              <div class="pantagonal-button">
+                <button type="submit" class="red-button animate">Оставить заявку</button>
+              </div>
+              <div class="form-group input-file">
+                <button class="btn-choose" type="button">
+                  <div class="icon icon-load"></div>
+                </button>
+                <input type="text" class="form-control text-input" name="phone" placeholder="Загрузите фото счетчиков ..."/>
+                <button class="btn-reset" type="button">
+                  <div class="icon icon-del"></div>
+                </button>
+              </div>
+              <div class="clear"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/lightgallery.js"></script>
